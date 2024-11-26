@@ -1,0 +1,25 @@
+ALGORITHM Sentence
+
+VAR
+    str:STRING
+    w,v,sum:INTEGER:=0
+
+BEGIN
+     /////////character a sentence
+     write("write a sentence")
+     read("read a sentence")
+     sum:=0
+     FOR s FROM 0 TO s.lenght-1 DO 
+     sum:=sum+1
+     IF s[d] = " " OR s[d]= "."then
+     w:=w+1
+     END_IF
+     IF s[f] in "EAOUIeaoui" then 
+     v:=v+1
+ END_IF
+ END_FOR
+  write(sum)
+  write(w)
+  write(v)
+
+END
